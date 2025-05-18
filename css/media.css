@@ -1,0 +1,141 @@
+@media (max-width: 1080px){
+    /*header*/
+    .header-row {
+        column-gap: 30px;
+      }
+      .header-img {
+        width: 300px;
+        border-radius: 30px;
+      }
+      .header-title {
+        font-size: 52px;
+      }
+      .header-text {
+        font-size: 22px;
+      }
+
+    /*portfolio*/
+    .pt-title {
+        font-size: 42px;
+      }
+
+      /*contacts*/
+      .ct-title {
+        font-size: 42px;
+      }
+      .details h1{
+        font-size: 42px;
+    }
+    .msd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px){
+    .header{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-bottom-right-radius: 80px;
+    }
+    .video{
+        border-bottom-right-radius: 80px;
+    }
+    .header-row {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+      }
+      .header-img {
+        width: 100%;
+        max-width: 100%;
+      }
+        .header-title {
+            font-size: 32px;
+        }
+        .header-text {
+            font-size: 18px;
+        }
+        .btn,
+        .btn-outline {
+            height: 42px;
+            padding: 12px 15px 0;
+        }
+        /*portfolio*/
+        .portfolio {
+            padding: 40px 0;
+        }
+        .pt-title {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        .projects{
+            row-gap:30px;
+        }
+        .project img {
+            border-radius: 14px;
+            margin-bottom: 20px;
+          }
+          .project h3 {
+            font-size: 16px;
+          }
+        /*contacts*/
+        .contacts {
+            padding: 40px 0;
+            border-top-left-radius: 60px;
+        }
+        .ct-title {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        .messangers{
+            gap: 20px;
+        }
+        .msg{
+           padding:32px 20px; 
+            border-radius: 12px;
+            font-size: 16px;
+        }
+        .msd{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+
+        /*footer*/
+        .footer-inner {
+            font-size: 12px;
+          }
+
+          /*inner page*/
+          .inner-page{
+            padding: 40px 0 20px;
+        }
+        .details h1{
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .details{
+            margin-bottom: 20px;
+            row-gap: 20px;
+        }
+        .text{
+            row-gap: 20px;
+        }
+        
+        .in-img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .back{
+            padding: 20px;
+        }
+}
+
+@media (max-width: 450px){
+    .header-img{
+        opacity: 1.8;
+    }
+}
